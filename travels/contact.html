@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,
+             wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,
+             700&display=swap" rel="stylesheet">
+    <title>Contact</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- section-1 -->
+        <section class="contact_header">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-8 col-6">
+                        <div class="logo">
+                            <img class="logo_img" src="img/logo-removebg-preview.png" alt="">
+                            <span>Movers_Hub</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6 d-flex justify-content-end">
+                        <div class="contact">
+                            <span>
+                                Call Us Free<br>
+                                (+88)123 456 78901
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id="menu_bar" style="position: relative;">
+                        <div class="menu_bar" style="position: absolute; right:30px;">
+                            <i class="fa-solid fa-bars" onclick="showBar()"></i>
+                        </div>
+
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light sidebar">
+                            <div class="container-fluid p-0">
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation" style="display: none;">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                        </li>
+
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="about.html">About Us+</a>
+                                        </li>
+
+                                        <!-- <li class="nav-item">
+                                            <a class="nav-link" href="#price">Pricing+</a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#service">Services+</a>
+                                        </li> -->
+
+                                        <li class="nav-item ">
+                                            <a class="nav-link active" href="contact.html">Contact+</a>
+                                        </li>
+                                    </ul>
+
+                                    <button class="btn"> Sign
+                                        in</button>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="responsive_navbar" id="menu_bar_wrapper">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0"
+                            style="text-align: center; position: relative; top:35px">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link" href="about.html">About Us+</a>
+                            </li>
+
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#price">Pricing+</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#service">Services+</a>
+                            </li> -->
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contact.html">Contact+</a>
+                            </li>
+
+                            <button class="btn navbar_btn"> Sign
+                                in</button>
+                        </ul>
+                        <div class="close-menu" onclick="hideBar()">
+                            <i class="fa-solid fa-xmark" style=" position: absolute; top:10px; right: 10px;"></i>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-6 col-sm-12 col-12">
+                        <div class="header_text">
+                            <h1>Get Easy Moving
+                                From Place To
+                                Place With Us
+                            </h1>
+                        </div>
+                    </div>
+
+                    <div class=" col-md-6 col-sm-12 col-12">
+                        <div class="header_form mt-3">
+                            <h2>Where Do You Move</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Totam eaque impedit rerum,possimus unde deleniti Lorem ipsum dolor sit amet.
+                            </p>
+                            <form class="row g-md-3">
+                                <div class="col-md-6">
+                                    <label for="fname" class="form-label ">Your Name</label>
+                                    <input type="text" class="form-control" id="fname" value="Full Name">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="inputEmail4" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="from" class="form-label">From Region</label>
+                                    <input type="text" class="form-control" id="from">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="to" class="form-label">To Region</label>
+                                    <input type="text" class="form-control" id="to">
+                                </div>
+
+                                <div class="col-12">
+                                    <button type="submit" class="btn ">Send Request</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- section-2 -->
+        <section class="contact_wrapper ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-sm-12 col-12">
+                        <div class="contact_content">
+                            <h2>Moving_Hub</h2>
+                            <div class="content">
+                                <h4>Chat to us</h4>
+                                <p>Our friendly team is here to help.<br> <a href="#">shift#withus.com</a></p>
+
+                            </div>
+                            <div class="content">
+                                <h4>Chat to us</h4>
+                                <p>Our friendly team is here to help.<br> <a href="#">shift#withus.com</a></p>
+
+                            </div>
+                            <div>
+                                <h4>Chat to us</h4>
+                                <p>Our friendly team is here to help.<br><a href="#">shift#withus.com</a></p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-8 col-sm-12 col-12">
+                        <div class="contact_form">
+                            <h1>Got ideas?We've got the skills. Let's team up.</h1>
+                            <p>Tell us more about yourself and what you're got in mind.</p>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="name@example.com">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- section-3 -->
+        <section class="subscribe_wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 p-0">
+                        <div class="subscribe_heading">
+                            <h2>Subscribe<br> Our Newslater</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Pariatur eaque Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Nisi dolorum<br> tempora fuga enim Impedit quia quaerat sequi.
+                            </p>
+                            <form class="d-flex flex-wrap justify-content-center">
+                                <input class="form-control me-4 mb-2" type="search" placeholder="Enter E-mail"
+                                    aria-label="Search">
+                                <button class="btn mb-2" type="submit">Your E-mail</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <section class="subscribe_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-7 col-12">
+                        <h1>Movers_Hub</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing Fugiat
+                            maxime nuam consequatur Lorem ipsum dolor, sit amet consectetur adipisicing.
+                            minus.
+                        </p>
+                    </div>
+                    <div class="col-md-3  col-sm-6 col-6">
+                        <div class="subscribe_links">
+                            <h2>Quick Link</h2>
+                            <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Our Services</a></li>
+                                <li><a href="">Pages</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6">
+                        <div class="subscribe_links">
+                            <h2>Services</h2>
+                            <ul>
+                                <li><a href="">Personal Moving</a></li>
+                                <li><a href="">Industrial Moving</a></li>
+                                <li><a href="">High Packages</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

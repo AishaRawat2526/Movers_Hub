@@ -1,0 +1,570 @@
+@media (max-width: 1424.98px) {
+    .testimonial_card {
+        height: auto;
+    }
+}
+
+
+@media (max-width: 1399.98px) {
+    .company_intro .intro_img {
+        height: 100%;
+        width: 470px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .company_intro .intro_img img {
+        height: 300px;
+        width: 100%;
+        border-radius: 30px 0px 30px 30px;
+        margin: 0;
+        min-width: 100%;
+    }
+
+    .commitment_text {
+        font-size: 24px;
+        padding: 12px 12px 12px 30px;
+    }
+
+    .header_text h1 {
+        font-size: 64px;
+        padding: 4% 9%;
+        margin-top: 8%;
+    }
+
+    /* .header_form {
+        padding: 45px -10px;
+    } */
+}
+
+
+
+
+
+@media (max-width: 1199.98px) {
+    .commitment_text {
+        font-size: 20px;
+    }
+
+    .header_form h1 {
+        font-size: 35px;
+    }
+
+    .company_intro .intro_img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .work_card_text {
+        height: auto;
+        width: 70%;
+        left: 18%;
+    }
+
+    .work_card_text p {
+        font-size: 15px;
+        padding: 0 6px;
+    }
+
+    .testimonial_card {
+        padding: 10px 30px;
+    }
+
+    .header_form p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .choose-Us_card h3 {
+        font-size: 25px;
+    }
+
+    .choose-Us_card p {
+        font-size: 15px;
+    }
+
+    .choose-Us_text {
+        margin-top: 0;
+    }
+
+    .header_form label {
+        font-weight: 500;
+        padding: 5px 0;
+        color: #000;
+    }
+
+    /* .header_form {
+        max-width: 450px;
+        padding: 20px 21px;
+        margin-top: 27px;
+        margin-left: 0;
+        top: 25%;
+    } */
+
+    .navbar {
+        margin: 0;
+    }
+
+    .navbar ul li a {
+        margin-left: 34px;
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 1024.98px) {
+
+    .rating_wrapper {
+        padding: 0 32px;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+
+
+    .menu_bar {
+        display: block
+    }
+
+    .menu_bar i {
+        color: #fff;
+        font-size: 23px;
+
+    }
+
+    .service {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        height: 100%;
+    }
+
+    .navbar_btn {
+        background: blueviolet !important;
+        color: #fff !important;
+        max-width: 90px;
+        margin: 0 auto;
+    }
+
+    .responsive_navbar {
+        display: block;
+        position: fixed;
+        background: #fff;
+        width: 250px;
+        left: -250px;
+        top: 0;
+        height: 100vh;
+        z-index: 99999;
+        transition: 1s all;
+    }
+
+
+
+    .header_text h1 {
+        font-size: 50px;
+        margin-top: 68px;
+    }
+
+    .navbar {
+        background: red;
+    }
+
+
+    .contact {
+        font-size: 17px;
+        margin: 30px 2px -2px 1px;
+    }
+
+    .pricing_card ul {
+        margin: 30px;
+    }
+
+    .price p {
+        padding-right: 0px;
+        padding-left: -12px;
+    }
+
+    .testimonial_card {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .choose-Us_card {
+        padding: 18px 6px;
+    }
+
+
+
+    .subscribe_heading h1 {
+        padding: 12px 78px;
+        font-size: 48px;
+    }
+
+    .service_text {
+        margin-top: 18%;
+    }
+
+    .work_card_text {
+        width: 70%;
+        left: 15%;
+    }
+
+    .pricing_card ul {
+        margin: 4px 4px 16px 4px;
+    }
+
+    .price h1 {
+        font-size: 37px;
+        padding-right: 10px;
+    }
+
+    .profile_img {
+        margin-top: 3px;
+        margin-left: 8px;
+    }
+
+    .profile_name {
+        margin: 27px -40px;
+    }
+
+    .navbar {
+        width: 0;
+    }
+
+    .subscribe_heading p {
+        padding: 0 22px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+
+
+    .testimonial_heading h1 {
+        font-size: 48px;
+    }
+
+    .menu_bar {
+        position: absolute;
+        right: 14px;
+        top: -26px;
+    }
+
+    .contact {
+        font-size: 16px;
+        margin: 15px 8px;
+    }
+
+    .profile_name {
+        line-height: 6px;
+        margin: 12px;
+    }
+
+    .profile_img {
+        margin-left: 0px;
+    }
+
+    .subscribe_heading form button {
+        padding: 8x 7px;
+        font-size: 12px;
+    }
+
+    .subscribe_links {
+        margin-left: 0px;
+    }
+
+    .subscribe_links ul {
+        padding-top: 0;
+    }
+
+    .about_header_text {
+        font-size: 58px;
+        margin-top: 3%;
+    }
+
+    .company_text {
+        padding: 5px 32px;
+    }
+
+    .company_intro .intro_img img {
+        padding: 26px 5px;
+    }
+
+    .testimonial_heading p {
+        font-size: 16px;
+    }
+
+    .testimonial_card p {
+        font-size: 14px;
+    }
+
+    .testimonial {
+        top: -40px;
+    }
+
+
+    /* 
+    .header_form {
+        max-width: 390px;
+        top: 29%;
+    } */
+
+    .header_form h1 {
+        margin-bottom: -5px
+    }
+
+
+
+    .header_form p {
+        margin: 4px auto;
+        font-size: 14px;
+        padding-top: 4px;
+    }
+
+    .header_form input {
+        margin-top: -10px;
+        padding: 1px;
+    }
+
+    .header_text h1 {
+        font-size: 27px;
+        padding: 0% 8% 2% 14%;
+        margin-top: -3%;
+    }
+
+    .pricing_card ul {
+        margin: 15px 8px;
+    }
+
+    .center_div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .service_text {
+        margin-top: 30%;
+    }
+
+    .order_card {
+        height: 230px;
+    }
+
+}
+
+@media (max-width: 604.98px) {
+    .contact {
+        font-size: 13px;
+        margin: 15px 4px;
+        line-height: 18px;
+    }
+
+}
+
+
+@media (max-width: 576.98px) {
+
+    .about_header_text h1 {
+        font-size: 56px;
+        margin-top: 10%;
+    }
+
+    .header_form {
+        display: none !important;
+    }
+
+    .header_form h1 {
+        margin-bottom: -9px
+    }
+
+    .header_text h1 {
+        font-size: 35px;
+        padding: 0% 8% 2% 14%;
+        margin-top: 15% !important;
+    }
+
+    .header_text h1 {
+        font-size: 60px;
+    }
+
+
+
+    .company_text {
+        padding: 25px 32px;
+    }
+
+    .testimonial_heading {
+        width: 100%;
+        height: 210px;
+    }
+
+    .testimonial_card p {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+
+    .testimonial_card {
+        margin-top: 16px;
+    }
+
+    .subscribe_wrapper {
+        margin-top: 20px;
+    }
+
+    .company_intro {
+        color: white;
+        background: #ff4e54;
+        margin: 0px;
+    }
+
+    .rating_wrapper {
+        height: auto;
+        margin-top: 48px;
+    }
+
+    .work_card_text {
+        width: 62%;
+        left: 20%;
+    }
+
+}
+
+@media (max-width: 509.98px) {
+    .logo span {
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        display: inline-block;
+        color: #fff;
+        top: -22px;
+        left: 19px;
+    }
+}
+
+@media (max-width: 449.98px) {
+    .about_header_text h1 {
+        font-size: 50px;
+        margin-top: 8%;
+    }
+
+    .choose-Us_wrapper {
+        margin-top: 30px;
+    }
+
+    .subscribe_content {
+        padding-left: 0;
+    }
+
+    .subscribe_wrapper {
+        height: 100%;
+        margin-top: 60px;
+    }
+
+    .subscribe_links h2 {
+        font-size: 28px;
+    }
+
+    .subscribe_content p {
+        width: 100%;
+    }
+
+    .subscribe_heading h2 {
+        font-size: 42px;
+    }
+
+    .service_text {
+        margin-top: 40%;
+    }
+
+    .subscribe_heading p {
+        padding: 0 22px;
+    }
+
+    .subscribe_links {
+        padding: 0;
+        width: 92%;
+    }
+
+    .pricing_card {
+        width: 100%;
+    }
+
+    .p_top {
+        padding-top: 25px;
+    }
+
+    .pricing_wrapper {
+        margin-top: 20px;
+    }
+
+    .testimonial_heading {
+        width: 100%;
+        height: 28%;
+    }
+
+    .testimonial_heading h2 {
+        font-weight: 600;
+        padding: 22px 5px 0 5px;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .mt {
+        margin-top: 10px;
+    }
+
+    .subscribe_heading form input {
+        margin-right: 0 !important;
+    }
+}
+
+@media (max-width: 398.98px) {
+    .header_text h1 {
+        font-size: 40px;
+        padding: 2% 19%;
+    }
+
+    .contact_content h2 {
+        margin-bottom: 20px;
+        font-size: 33px;
+    }
+
+    .work_card_text.ext {
+        font-size: 18px;
+    }
+
+    .choose-Us_wrapper {
+        margin-top: 15px;
+    }
+
+    .card_content p {
+        text-align: center;
+        padding: 1px 12px;
+        font-size: 13px;
+    }
+
+
+
+    .testimonial_wrapper {
+        margin-top: 15px;
+    }
+
+    .testimonial_heading p {
+        font-size: 13px;
+    }
+
+    .card_num {
+        top: -28%;
+    }
+
+    .company_text {
+        padding: 16px 2px;
+    }
+}
